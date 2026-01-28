@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Personal Webpage of Jules Zou (邹晗枫)
+title: Personal Webpage of Jules Zou <span class="cn-name">(邹晗枫)</span>
 first_name: Jules
 middle_name: Hanfeng
 last_name: Zou
