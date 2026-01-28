@@ -1,12 +1,11 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
+permalink: /cv/
 nav: true
-nav_order: 1
-cv_pdf: /assets/pdf/Resume_Jules_Zou.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: My CV as of November 2025
-toc:
-  sidebar: left
 ---
+
+<object data="{{ '/assets/pdf/Resume_Jules_Zou.pdf' | relative_url }}" type="application/pdf" width="100%" height="900px">
+  <p>Your browser can’t display PDFs. <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">Download CV</a>.</p>
+</object>
+
