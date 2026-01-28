@@ -1,6 +1,14 @@
 name: Prettier code formatter
 
-on: []
+on:
+  pull_request:
+    branches:
+      - master
+      - main
+  push:
+    branches:
+      - master
+      - main
 
 
 jobs:
